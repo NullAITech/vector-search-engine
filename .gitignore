@@ -41,3 +41,5 @@ test_*.json
 test_*.vdb
 .data/
 .vector_store/
+
+node_modules/

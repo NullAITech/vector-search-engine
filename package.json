@@ -1,0 +1,36 @@
+{
+  "name": "vector-search-engine",
+  "version": "2.0.0",
+  "description": "Zero-Dependency HNSW & IVF Vector Database, BM25 Hybrid Search, MMR Diversity & Clustering — Desktop Workstation",
+  "main": "electron/main.cjs",
+  "bin": {
+    "vec": "./bin/vector-search.js",
+    "vector-search": "./bin/vector-search.js"
+  },
+  "scripts": {
+    "start": "python3 -m vector_search_engine.cli serve --port 8093",
+    "electron": "electron .",
+    "app": "electron .",
+    "test": "pytest tests/"
+  },
+  "keywords": [
+    "vector-search",
+    "vector-database",
+    "hnsw",
+    "ivf",
+    "bm25",
+    "hybrid-search",
+    "embeddings",
+    "mmr",
+    "clustering",
+    "zero-egress",
+    "sovereign",
+    "electron",
+    "zoth"
+  ],
+  "author": "NullAI Tech / Zoth Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^34.5.8"
+  }
+}
